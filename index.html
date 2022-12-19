@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 52px;
+      }
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+
+      }
+      h3 , .desc{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .statement{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+      }
+
+      p,
+      li {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: black;
+      }
+      .red{
+        color: #EE3524;
+      }
+      .pb{
+        font-weight: 600;
+      }
+      .btn-danger{
+        background-color: #EE3524 ;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .btn{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+            }
+      .stats{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+      }
+      .quote{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        color: black;
+      }
+      #need-your-help{
+        clip-path: polygon(0 0, 78% 8%, 100% 0, 100% 100%, 20% 94%, 0 100%);
+      }
+      @media only screen and (max-width: 600px) {
+       #need-your-help{
+        clip-path: polygon(80% 2%, 100% 0, 99% 100%, 17% 99%, 0 100%, 0 0)!important;
+      }
+      
+      }
+      
+ 
+    </style>
+
+    <div class="">
+      <section class="pb-5 pt-5  container" id="hero">
+        <div class="row align-items-end flex-column-reverse flex-lg-row">
+          <div class="col-md-6 col-12 col-sm-12 text-center text-sm-start">
+            <h1 class="mb-3"><strong>GIVE</strong> WHERE YOU LIVE</h1>
+            <h2 >Your <span class="red">Zakat</span> from Coast to Coast</h2>
+            <p >
+              This year you helped us distribute <span class="pb"> $3.8M</span> to over <span class="pb">16,000</span>  individuals.
+             
+            </p>
+            <p class="pb-3">
+              Your belief in the power of local giving has brought hope and relief into the lives of many vulnerable Muslim brothers and sisters in your community, and the efforts must continue.
+              As costs of living skyrocket, the need for local Zakat grows too.
+            </p>
+            <h3 >
+              We can’t stop the <span class="red">rising costs</span> of living but your <span class="red"> Zakat</span> can reduce
+              suffering
+            </h3>
+            <button class="btn btn-danger mt-5 " data-bs-toggle="offcanvas" data-bs-target="#donateForm" aria-controls="donateForm">DONATE NOW</button>
+          </div>
+          <div class="col-md-6 col-12 col-sm-12">
+            <img src="./assets/map.png" alt="" class="img-fluid " />
+          </div>
+       
+        </div>
+        <div class="text-center" ><img src="./assets/scrollDownIcon.png" alt="" class="img-fluid "></div>
+      </section>
+      <section class="pb-5 pt-5 " id="need-your-help" style="background-color: #F9F9F9; ">
+       
+  
+        <div class="container pt-5 pb-5" >
+
+          <div class="row align-items-end">
+            
+            <h1 class="text-center ">
+              1200+ <span class="red">CANADIANS</span> NEED YOUR HELP,<br> RIGHT NOW!
+            </h1>
+            <div class="col-md-4 col-12 col-sm-12">
+              <div class="card" style="background: #F9F9F9; border: none;">
+                  <div class="card-body text-center">
+                    <div>
+
+                      <img src="./assets/people.png" width="110px" alt="" class="img-fluid mt-2">
+                    </div>
+                        <p class="stats">300</p>
+                        <p class="desc">
+                          Open <br/> Cases
+                        </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 col-sm-12"><div class="card" style="background: #F9F9F9; border: none;">
+              <div class="card-body text-center">
+    <div>
+
+      <img src="./assets/computerman.png" width="110px" alt="" class="img-fluid mt-2">
+    </div>
+                    <p class="stats">$340,000</p>
+                    <p class="desc">
+                      Projected <br/> Needed to <br/>support
+                    </p>
+              </div>
+            </div></div>
+            <div class="col-md-4 col-12 col-sm-12"><div class="card" style="background: #F9F9F9; border: none;">
+              <div class="card-body text-center">
+      <div>
+        
+        <img src="./assets/mapicon.png" width="150px" alt="" class="img-fluid mt-2">
+      </div>
+                    <p class="stats">$5.3M</p>
+                    <p class="desc">
+                      Projected <br/> Needed in <br/> 2023                    </p>
+              </div>
+            </div></div>
+            <div class="col-12 text-center">  <p class="text-center">The need for Zakat has grown by 23%, just compared to last year alone! When given locally, your Zakat has the power to pull families out of poverty and empower communities for generations to come.</p>
+            <button class="btn btn-danger " data-bs-toggle="offcanvas" data-bs-target="#donateForm" aria-controls="donateForm">GIVE WHERE YOU LIVE</button></div>
+          
+          </div>
+        </div>
+      </section>
+      <section class="pb-5 pt-5 mt-3 mb-3" id="coast-coast" >
+        <div class="container">
+
+          <div class="row align-items-end">
+            
+            <h1 class="text-center mb-3">
+              YOUR <span class="red">ZAKAT</span> FROM COAST TO COAST
+          
+            </h1>
+            <p class="text-center statement">In 2022, your Zakat and Sadaqah <span class="pb">protected</span> families from <span class="pb">hunger,<br> eviction </span>and <span class="pb">debt</span>.</p>
+            <div class="col-md-4 col-12 col-sm-12">
+              <div class="card" style=" border: none;">
+                  <div class="card-body ">
+                    <div class="row align-items-end">
+                      <div class="col"><img src="./assets/people.png" width="150px" alt="" class="img-fluid mt-2"></div>
+                      <div class="col"> <p class="stats">1600+</p>
+                        <p class="desc">
+                          Individual Assisted
+                        </p></div>
+                    </div>
+                    
+                       
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 col-sm-12">
+              <div class="card" style=" border: none;">
+                  <div class="card-body ">
+                    <div class="row align-items-end">
+                      <div class="col"><img src="./assets/computerman.png" width="150px" alt="" class="img-fluid mt-2"></div>
+                      <div class="col"> <p class="stats">$4.42M</p>
+                        <p class="desc">
+                          Distributed as Food
+                        </p></div>
+                    </div>
+                    
+                       
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 col-sm-12">
+              <div class="card" style=" border: none;">
+                  <div class="card-body ">
+                    <div class="row ">
+                      <div class="col"><img src="./assets/mapicon.png" width="180px" alt="" class="img-fluid mt-2"></div>
+                      <div class="col"> <p class="stats">$3.08M+</p>
+                        <p class="desc">
+                          Distributed in 2022
+                        </p></div>
+                    </div>
+                    
+                       
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">  <p class="text-center">100% of your Zakat goes towards helping families living right here in Canada.</p>
+            <button class="btn btn-danger "data-bs-toggle="offcanvas" data-bs-target="#donateForm" aria-controls="donateForm">GIVE WHERE YOU LIVE</button></div>
+          
+          </div>
+        </div>
+      </section>
+
+      <section id="crisis" class="pb-5 pt-5" style="background-color: #F9F9F9;background:url(./assets/forthbg.png);background-repeat: no-repeat;background-size:cover">
+        <div class="container" class="">
+          <div class="row align-items-center">
+            <div class="col-md-4 col-12 col-sm-12">
+              <div>
+                <img src="./assets/pichart.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-8 col-12 col-sm-12 text-center">
+              <h1 class="mb-3">VULNERABLE COMMUNITIES<br> ARE IN A <span class="red">Crisis</span></h1>
+              <p class="mb-2">Vulnerable members of our communities need us now more than ever before. Winter is tough for all Canadians, but for some, their troubles are multiplied by not having enough to get by.</p>
+              <p class="mb-3">As the year ends, help us meet the growing need for <span class="pb">Zakat</span> and <span class="pb">Sadaqah</span> across <span class="red pb">Canada</span>.</p>
+              <button class="btn btn-danger " data-bs-toggle="offcanvas" data-bs-target="#donateForm" aria-controls="donateForm">DONATE TOO SUPPORT A FAMILY</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="container pb-5 pt-5" id="testitmonials">
+        <div class="row align-items-end" >
+
+          <h1 class="text-center mb-5">CLIENTS <span class="red">TESTIMONIALS</span></h1>
+          <div class="col-md-6 col-12 col-sm-12 mb-5">
+            <div
+              class="card"
+              style="
+                background: #f6f6f6;
+                border: 1px solid white;
+                border-radius: 12px 88px 12px 88px;
+             
+              "
+            >
+              <div class="text-center" style="margin-top: -5vh">
+                <img
+                  src="./assets/review1.png"
+                  width="110px"
+                  alt=""
+                  class="img-fluid mt-2"
+                  style="border: 6px solid #FCB814;border-radius:100%"
+                />
+              </div>
+              <div class="card-body">
+                <p class="">
+                  I convey my heartfelt thanks and gratitude for the valuable help
+                  I got from the management of NZF and pray to Allah to give a
+                  suitable reward to all of you, the management of NZF and for
+                  your evergreen prosperity to help more and more needy and
+                  deserving people like me, Thankfully your brother.
+                </p>
+  
+                <p class="quote text-end"><span class="pb">Jameel</span> , NZF client</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 col-sm-12 mb-5">
+            <div
+              class="card"
+              style="
+                background: #f6f6f6;
+                border: 1px solid white;
+                border-radius: 12px 88px 12px 88px;
+              
+              "
+            >
+              <div class="text-center" style="margin-top: -5vh">
+                <img
+                  src="./assets/review2.png"
+                  width="110px"
+                  alt=""
+                  class="img-fluid mt-2"
+                  style="border: 6px solid #FCB814;border-radius:100%"
+                />
+              </div>
+              <div class="card-body">
+                <p class="">
+                  <br><br>Thank you so much, for supporting, I received the check yesterday, and Allah give you all rewards, and those who helped us.
+                </p>
+  
+                <p class="quote text-end"><span class="pb">Sidra</span>, NZF client</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-center pb-5 pt-5" id="lastsection" style="border-radius:56px 56px 0px 0px; background:url(./assets/waves.png);background-repeat: no-repeat;
+      background-size: cover;">
+        <div class="container">
+
+          <h1 class="mb-2">Spread <span class="red">Blessings</span> Year Around</h1>
+          <h3 class="mb-3">Help people every month</h3>
+          <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#donateForm" aria-controls="donateForm">BECOME A MONTHLY DONER</button>
+        </div>
+      </section>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="donateForm" aria-labelledby="donateFormLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="donateFormLabel">Donatation Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        
+          <iframe id="keela_nJnj89j8cst34jMsj" style="width: 100% ; min-height: 100%" frameborder="0" src="https://donate-can.keela.co/embed/nzf-donate"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
